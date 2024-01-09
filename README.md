@@ -1,5 +1,10 @@
-# Social Media Impact Analysis for Food Safety Security Organizations
-
+# Social Media Impact Analysis for Food Pantries
+## Dependencies
+[![Pandas](https://img.shields.io/badge/pandas-1.3.3-blue)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/numpy-1.21.4-blue)](https://numpy.org/)
+[![Matplotlib](https://img.shields.io/badge/matplotlib-3.4.3-blue)](https://matplotlib.org/)
+[![Scikit-learn](https://img.shields.io/badge/scikit--learn-0.24.2-blue)](https://scikit-learn.org/)
+[![SciPy](https://img.shields.io/badge/scipy-1.7.3-blue)](https://www.scipy.org/)
 ## Overview
 This repository contains the code and analysis for a research project aimed at enhancing social media impact for food safety security organizations. The project focuses on understanding text tone preferences based on user demographics using machine learning techniques.
 
@@ -10,7 +15,6 @@ The file_combiner.ipynb notebook serves the purpose of combining two datasets ge
 
 Key Steps in the Notebook:
 
-<br>
 1. Loading the Datasets:<br>
 The notebook likely starts by loading the two datasets generated from testing the survey web application. These datasets could be in the form of Excel files, CSV files, or any other format suitable for data storage.<br>
 
