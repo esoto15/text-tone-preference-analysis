@@ -49,7 +49,7 @@ Once the datasets are combined and expanded, the notebook exports the final data
 
 ## Kmeans without PCA
 ![image](https://github.com/esoto15/text-tone-preference-analysis/assets/106943089/39824d46-8f7d-4d1a-a2cf-26e055470f17)
-## Kmeans with PCA
+## Kmeans PCA
 ![image](https://github.com/esoto15/text-tone-preference-analysis/assets/106943089/cad67eed-e23a-435f-b58d-ce0f65e0cf79)
 
 ## Requirements
