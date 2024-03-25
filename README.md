@@ -35,15 +35,15 @@ To simplify data analysis and model training, the **melt** function was utilized
 | 25-34  | female | non hispanic  | Associate   | Less than $25,000  | Student            | i do not have a disability | Original   |
 
 ### Encoding Categories
-| **Age Category**       | **Encoded Value (Age)** | **Income Category**   | **Encoded Value (Income)** | **Disability Category**          | **Encoded Value (Disability)** |
-|------------------------|--------------------------|------------------------|-----------------------------|--------------------------------|--------------------------------|
-| 18-24                  | 0                        | Less than 25000        | 0                           | No                             | 0                              |
-| 25-34                  | 1                        | 25000 - 49999          | 1                           | Yes                            | 1                              |
-| 35-44                  | 2                        | 50000 - 74999          | 2                           | Prefer not to say              | -1                             |
-| 45-54                  | 3                        | 75000 - 99999          | 3                           |         -                       |           -                     |
-| 55-64                  | 4                        | 100000 - 149999        | 4                           |         -                       |           -                     |
-| 65 and above           | 5                        | 150000 or more         | 5                           |          -                      |           -                     |
-| Prefer not to say      | -1                       | Prefer not to say      | -1                          |          -                      |           -                     |
+| **Age Category**       | **Encoded Value (Age)** | **Income Category**   | **Encoded Value (Income)** | **Disability Category**          | **Encoded Value (Disability)** | **Ethnicity Category**       | **Encoded Value (Ethnicity)** |
+|------------------------|--------------------------|------------------------|-----------------------------|--------------------------------|--------------------------------|--------------------------------|----------------------------|
+| 18-24                  | 0                        | Less than 25000        | 0                           | No                             | 0                              |Hispanic                     | 1                            |
+| 25-34                  | 1                        | 25000 - 49999          | 1                           | Yes                            | 1                              |Non-Hispanic                 | 0                              |
+| 35-44                  | 2                        | 50000 - 74999          | 2                           | Prefer not to say              | -1                             |Prefer not to say            | -1                              |
+| 45-54                  | 3                        | 75000 - 99999          | 3                           |         -                       |           -                     |           -                     |           -                     |
+| 55-64                  | 4                        | 100000 - 149999        | 4                           |         -                       |           -                     |           -                     |           -                     |
+| 65 and above           | 5                        | 150000 or more         | 5                           |          -                      |           -                     |           -                     |           -                     |
+| Prefer not to say      | -1                       | Prefer not to say      | -1                          |          -                      |           -                     |           -                     |           -                     |
 
 
 
