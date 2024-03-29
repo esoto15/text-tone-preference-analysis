@@ -35,6 +35,9 @@ To simplify data analysis and model training, the **melt** function was utilized
 | 25-34  | female | non hispanic  | Associate   | Less than $25,000  | Student            | i do not have a disability | Original   |
 
 ### Encoding Categories
+
+#### Dataset 1: Ethnicity numerical encoding
+
 | **Age Category**       | **Encoded Value (Age)** | **Income Category**   | **Encoded Value (Income)** | **Disability Category**          | **Encoded Value (Disability)** | **Ethnicity Category**       | **Encoded Value (Ethnicity)** |
 |------------------------|--------------------------|------------------------|-----------------------------|--------------------------------|--------------------------------|--------------------------------|----------------------------|
 | 18-24                  | 0                        | Less than 25000        | 0                           | No                             | 0                              |Hispanic                     | 1                            |
@@ -46,6 +49,23 @@ To simplify data analysis and model training, the **melt** function was utilized
 | Prefer not to say      | -1                       | Prefer not to say      | -1                          |          -                      |           -                     |           -                     |           -                     |
 
 
+
+| age | ethnicity | income | disability | gender_female | gender_male | gender_non binary | education_Associate | education_Bachelor | education_Doctorate | ... | employment_Employed Full time | employment_Employed Part time | employment_Retired | employment_Self employed | employment_Student | employment_Unemployed | choice_Empathetic | choice_Original | choice_Persuasive | choice_Simplier |
+|-----|-----------|--------|------------|---------------|-------------|-------------------|----------------------|---------------------|---------------------|-----|--------------------------------|--------------------------------|---------------------|--------------------------|--------------------|-----------------------|-------------------|-----------------|-------------------|------------------|
+| 3   | 0         | 1      | 0          | True          | False       | False             | False                | False               | False               | ... | False                          | True                           | False               | False                    | False              | False                 | False             | True            | False             | False            |
+| 0   | 1         | 0      | 0          | False         | True        | False             | False                | False               | False               | ... | False                          | True                           | False               | False                    | False              | False                 | False             | True            | False             | False            |
+| 1   | 0         | 0      | 0          | True          | False       | False             | True                 | False               | False               | ... | False                          | False                          | False               | False                    | True               | False                 | False             | True            | False             | False            |
+
+#### Dataset 2: label encoding 
+
+| age | income | gender_female | gender_male | gender_non binary | ethnicity_hispanic | ethnicity_non hispanic | education_Associate | education_Bachelor | education_Doctorate | ... | employment_Retired | employment_Self employed | employment_Student | employment_Unemployed | disability_i do not have a disability | disability_undisclosed | choice_Empathetic | choice_Original | choice_Persuasive | choice_Simplier |
+|-----|--------|---------------|-------------|-------------------|--------------------|-----------------------|----------------------|---------------------|---------------------|-----|---------------------|--------------------------|---------------------|-----------------------|----------------------------------------|------------------------|---------------------|------------------|-------------------|------------------|
+|  3  |   1    |      True     |    False    |       False       |       False        |          True         |        False         |        False        |        False        | ... |       False         |          False           |       False         |         False         |                True                    |         False          |        False        |      False       |       True        |      False       |
+|  0  |   0    |     False     |    True     |       False       |        True        |         False         |        False         |        False        |        False        | ... |       False         |          False           |       False         |         False         |                True                    |         False          |        False        |      True        |      False        |      False      |
+
+
+
+## PCA Implementation
 
 
 
